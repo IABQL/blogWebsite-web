@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite --host 0.0.0.0",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.1.4",
+    "axios": "^0.26.1",
+    "echarts": "^5.3.1",
+    "element-plus": "^2.1.5",
+    "jquery": "^3.6.0",
+    "md-editor-v3": "^1.11.3",
+    "pinia": "^2.0.12",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
